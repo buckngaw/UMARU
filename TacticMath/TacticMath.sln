@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacticMath", "TacticMath.csproj", "{3EAF934F-6BE3-CB33-3629-1C09724A00BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacticMath.Editor", "TacticMath.Editor.csproj", "{20B6CB1F-9C93-0DF5-DF5D-29AFA3B7BE0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EAF934F-6BE3-CB33-3629-1C09724A00BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAF934F-6BE3-CB33-3629-1C09724A00BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAF934F-6BE3-CB33-3629-1C09724A00BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAF934F-6BE3-CB33-3629-1C09724A00BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B6CB1F-9C93-0DF5-DF5D-29AFA3B7BE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B6CB1F-9C93-0DF5-DF5D-29AFA3B7BE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B6CB1F-9C93-0DF5-DF5D-29AFA3B7BE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B6CB1F-9C93-0DF5-DF5D-29AFA3B7BE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
