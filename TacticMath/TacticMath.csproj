@@ -78,15 +78,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Common\Animation\EasingControl.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\EasingEquations.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TransformAnimationExtensions.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TransformLocalEulerTweener.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TransformLocalPositionTweener.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TransformPositionTweener.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\TransformScaleTweener.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\Tweener.cs" />
-    <Compile Include="Assets\Scripts\Common\Animation\Vector3Tweener.cs" />
+    <Compile Include="Assets\Scripts\Controller\InputController.cs" />
+    <Compile Include="Assets\Scripts\Controller\InputController_withcomment.cs" />
+    <Compile Include="Assets\Scripts\Demo.cs" />
+    <Compile Include="Assets\Scripts\EventArgs\Common\Animation\EasingControl.cs" />
+    <Compile Include="Assets\Scripts\EventArgs\Common\Animation\EasingEquations.cs" />
+    <Compile Include="Assets\Scripts\EventArgs\Common\Animation\TransformAnimationExtensions.cs" />
+    <Compile Include="Assets\Scripts\EventArgs\Common\Animation\TransformLocalEulerTweener.cs" />
+    <Compile Include="Assets\Scripts\EventArgs\Common\Animation\TransformLocalPositionTweener.cs" />
+    <Compile Include="Assets\Scripts\EventArgs\Common\Animation\TransformPositionTweener.cs" />
+    <Compile Include="Assets\Scripts\EventArgs\Common\Animation\TransformScaleTweener.cs" />
+    <Compile Include="Assets\Scripts\EventArgs\Common\Animation\Tweener.cs" />
+    <Compile Include="Assets\Scripts\EventArgs\Common\Animation\Vector3Tweener.cs" />
+    <Compile Include="Assets\Scripts\EventArgs\InfoEventArgs.cs" />
     <Compile Include="Assets\Scripts\Model\LevelData.cs" />
     <Compile Include="Assets\Scripts\Model\Point.cs" />
     <Compile Include="Assets\Scripts\PreProduction\BoardCreator.cs" />
