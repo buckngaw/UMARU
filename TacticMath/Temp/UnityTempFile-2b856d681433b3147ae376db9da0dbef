@@ -120,9 +120,9 @@ Assets/Scripts/EventArgs/InfoEventArgs.cs
 Assets/Scripts/Model/LevelData.cs
 Assets/Scripts/Model/Point.cs
 Assets/Scripts/PreProduction/BoardCreator.cs
-Assets/Scripts/Tile.cs
 "Assets/Scripts/View Model Component/Board.cs"
 "Assets/Scripts/View Model Component/CameraRig.cs"
+"Assets/Scripts/View Model Component/Tile.cs"
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
