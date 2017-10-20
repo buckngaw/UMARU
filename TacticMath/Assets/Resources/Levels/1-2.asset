@@ -24,6 +24,14 @@ MonoBehaviour:
   - {x: 5, y: 1, z: 1}
   - {x: 5, y: 1, z: 2}
   - {x: 5, y: 1, z: 3}
-  Monster:
+  MonstersPos:
+  - x: 6
+    y: -2
+  Monsters:
   - {fileID: 11400000, guid: 1bd90033ebe04c343bd38d0510bfeda0, type: 2}
+  Environment:
+  - {fileID: 11400000, guid: 69c612a47a2ecaf4e908818a2cb71cf5, type: 2}
+  EnvironmentPos:
+  - x: 1.239
+    z: 1.33
   tile_texture: {fileID: 0}

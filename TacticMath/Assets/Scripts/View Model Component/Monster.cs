@@ -5,8 +5,8 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Monster : ScriptableObject
 {
-
-    public GameObject model;
+     
+    public GameObject model;  //model in here
     public float height; // height mon stand on
     public int size; //size monster
 
@@ -15,5 +15,7 @@ public class Monster : ScriptableObject
         transform.localPosition = new Vector3(pos.x, height, pos.y);
         transform.localScale = new Vector3(size,size,size);
     }*/
+
+
 
 }

@@ -13,6 +13,7 @@ public class InitBattleState : BattleState
     {
         board.LoadData(levelData);
         board.LoadMon(levelData);
+        board.LoadEnvi(levelData);
         Point p = new Point((int)levelData.tiles[0].x, (int)levelData.tiles[0].z);
         SelectTile(p);
         yield return null;

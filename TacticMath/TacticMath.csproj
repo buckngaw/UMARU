@@ -97,8 +97,10 @@
     <Compile Include="Assets\Scripts\EventArgs\Common\Animation\Tweener.cs" />
     <Compile Include="Assets\Scripts\EventArgs\Common\Animation\Vector3Tweener.cs" />
     <Compile Include="Assets\Scripts\EventArgs\InfoEventArgs.cs" />
+    <Compile Include="Assets\Scripts\Model\Environment.cs" />
     <Compile Include="Assets\Scripts\Model\LevelData.cs" />
     <Compile Include="Assets\Scripts\Model\Point.cs" />
+    <Compile Include="Assets\Scripts\Model\Position.cs" />
     <Compile Include="Assets\Scripts\PreProduction\BoardCreator.cs" />
     <Compile Include="Assets\Scripts\View Model Component\Board.cs" />
     <Compile Include="Assets\Scripts\View Model Component\CameraRig.cs" />
