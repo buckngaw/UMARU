@@ -21,3 +21,6 @@ MonoBehaviour:
   - {x: 3, y: 1, z: 0}
   - {x: 4, y: 1, z: 0}
   - {x: 5, y: 1, z: 0}
+  Monster:
+  - {fileID: 0}
+  tile_texture: {fileID: 0}

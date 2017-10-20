@@ -11,7 +11,8 @@ public class InitBattleState : BattleState
     }
     IEnumerator Init()
     {
-        board.Load(levelData);
+        board.LoadData(levelData);
+        board.LoadMon(levelData);
         Point p = new Point((int)levelData.tiles[0].x, (int)levelData.tiles[0].z);
         SelectTile(p);
         yield return null;

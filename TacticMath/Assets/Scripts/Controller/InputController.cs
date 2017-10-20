@@ -64,7 +64,12 @@ public class InputController : MonoBehaviour
             {
                 if (fireEvent != null)
                     fireEvent(this, new InfoEventArgs<int>(i));
+
+                
             }
+          
         }
+
+
     }
 }

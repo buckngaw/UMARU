@@ -10,6 +10,8 @@ public abstract class BattleState : State
     public LevelData levelData { get { return owner.levelData; } }
     public Transform tileSelectionIndicator { get { return owner.tileSelectionIndicator; } }
     public Point pos { get { return owner.pos; } set { owner.pos = value; } }
+    public int turn = 0;
+
     protected virtual void Awake()
     {
         owner = GetComponent<BattleController>();
@@ -18,16 +20,18 @@ public abstract class BattleState : State
     {
         InputController.moveEvent += OnMove;
         InputController.fireEvent += OnFire;
+        
     }
 
     protected override void RemoveListeners()
     {
         InputController.moveEvent -= OnMove;
         InputController.fireEvent -= OnFire;
+        
     }
     protected virtual void OnMove(object sender, InfoEventArgs<Point> e)
     {
-
+       
     }
 
     protected virtual void OnFire(object sender, InfoEventArgs<int> e)
@@ -40,5 +44,7 @@ public abstract class BattleState : State
             return;
         pos = p;
         tileSelectionIndicator.localPosition = board.tiles[p].center;
+
+      
     }
 }
